@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Basketball Coaching</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <hr class="Us">
+    <h1 class="Us">Login </h1>
+    <hr class="Us">
+    <div class="form-container">
+        <h2>Login to Access Basketball Coaching</h2>
+        <form id="loginForm" onsubmit="return handleLogin()">
+            <div class="input-group">
+                <label for="loginUsername">Username</label>
+                <input type="text" id="loginUsername" placeholder="Enter your username" required>
+                <span class="error" id="loginUsernameError"></span>
+            </div>
+            <div class="input-group">
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                <span class="error" id="loginPasswordError"></span>
+            </div>
+            <button type="submit" class="submit-btn">Login</button>
+        </form>
+        <p>Don't have an account? <a href="signup1.html">Sign up here</a></p>
+    </div>
+
+    <script src="1.js"></script>
+    <footer>
+        <p>&copy; 2024 Pitch Basketball Academy. All Rights Reserved.</p>
+      </footer>
+    
+</body>
+</html>
+
